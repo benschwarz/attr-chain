@@ -5,9 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "attr_chain"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{attr_chain for chainable, single method attribute (get|setters)}
     gem.email = "ben.schwarz@gmail.com"
-    gem.homepage = "http://github.com/benschwarz/attr_chain"
+    gem.homepage = "http://github.com/benschwarz/attr-chain"
     gem.authors = ["Ben Schwarz"]
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
