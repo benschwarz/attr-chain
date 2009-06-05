@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "attr_chain"
+    gem.name = "attr-chain"
     gem.summary = %Q{attr_chain for chainable, single method attribute (get|setters)}
     gem.email = "ben.schwarz@gmail.com"
     gem.homepage = "http://github.com/benschwarz/attr-chain"
