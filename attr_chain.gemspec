@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.md", "LICENSE"]
   s.files = ["README.md", "VERSION.yml", "lib/attr_chain.rb", "spec/attr_method_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "LICENSE"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/benschwarz/attr_chain}
+  s.homepage = %q{http://github.com/benschwarz/attr-chain}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.2}
-  s.summary = %q{TODO}
+  s.summary = %q{attr_chain for chainable, single method attribute (get|setters)}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
