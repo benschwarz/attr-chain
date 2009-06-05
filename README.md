@@ -5,7 +5,6 @@ that can be chained together when they're being set.
 
 Its simple and small, you probably aren't interested, I kept on using this pattern and wanted to abstract it away from my other code.
 
----
 ## Working example
 
     require 'attr_chain'
