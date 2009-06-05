@@ -4,10 +4,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "attr_method"
+    gem.name = "attr_chain"
     gem.summary = %Q{TODO}
     gem.email = "ben.schwarz@gmail.com"
-    gem.homepage = "http://github.com/benschwarz/attr_method"
+    gem.homepage = "http://github.com/benschwarz/attr_chain"
     gem.authors = ["Ben Schwarz"]
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
@@ -18,6 +18,7 @@ end
 
 require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|
+  spec.spec_opts = ['--options', "spec/spec.opts"]
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']
 end
@@ -41,7 +42,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "attr_method #{version}"
+  rdoc.title = "attr_chain #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
