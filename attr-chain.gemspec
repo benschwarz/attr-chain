@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{attr-chain}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben Schwarz"]
-  s.date = %q{2009-06-05}
+  s.date = %q{2009-06-08}
   s.email = %q{ben.schwarz@gmail.com}
   s.extra_rdoc_files = ["README.md", "LICENSE"]
-  s.files = ["README.md", "VERSION.yml", "lib/attr_chain.rb", "spec/attr_method_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "LICENSE"]
+  s.files = ["README.md", "VERSION.yml", "lib/attr-chain.rb", "spec/attr_method_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/benschwarz/attr-chain}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
